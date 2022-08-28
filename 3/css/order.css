@@ -36,7 +36,7 @@ body {
   overflow: hidden;
 }
 .logo::before {
-  background-image: url("/img/assets/mishka-logo-mobile.svg");
+  background-image: url("../img/assets/mishka-logo-mobile.svg");
   content: "";
   width: 85px;
   height: 35px;
@@ -53,7 +53,7 @@ body {
   font-size: 27px;
   line-height: 30px;
   color: #000;
-  background-image: url("/img/content/1-hero-mobile.jpg");
+  background-image: url("../img/content/1-hero-mobile.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
@@ -108,18 +108,18 @@ body {
   display: inline-block;
 }
 .heading-link--icon-search::before {
-  background-image: url("/img/assets/magnifier.svg");
+  background-image: url("../img/assets/magnifier.svg");
 }
 .heading-link--icon-cart::before {
   width: 21px;
-  background-image: url("/img/assets/cart.svg");
+  background-image: url("../img/assets/cart.svg");
 }
 .heading-link--icon-htmlacademy::after {
   content: "";
   width: 26.9px;
   height: 34.1px;
   display: inline-block;
-  background-image: url("/img/assets/copyright.svg");
+  background-image: url("../img/assets/copyright.svg");
 }
 .catalog-nav {
   list-style: none;
@@ -138,7 +138,7 @@ body {
   background-color: hsl(168, 54%, 60%);
 }
 .catalog-nav__item:nth-child(1)::after {
-  background-image: url("/img/content/1-section-interior.svg");
+  background-image: url("../img/content/1-section-interior.svg");
   background-size: 40px 60px;
   width: 40px;
 }
@@ -146,7 +146,7 @@ body {
   background-color: hsl(174, 42%, 50%);
 }
 .catalog-nav__item:nth-child(2)::after {
-  background-image: url("/img/content/2-section-toys.svg");
+  background-image: url("../img/content/2-section-toys.svg");
 }
 .catalog-nav__link {
   font-family: "OpenSans", sans-serif;
@@ -205,13 +205,13 @@ a.outline-btn {
   margin: 0;
 }
 .social-icons-list__item:nth-child(1) .social-icons-list__anchor::before {
-  content: url("/img/assets/contact-tg.svg");
+  content: url("../img/assets/contact-tg.svg");
 }
 .social-icons-list__item:nth-child(2) .social-icons-list__anchor::after {
-  content: url("/img/assets/contact-vk.svg");
+  content: url("../img/assets/contact-vk.svg");
 }
 .social-icons-list__item:nth-child(3) .social-icons-list__anchor::before {
-  content: url("/img/assets/contact-youtube.svg");
+  content: url("../img/assets/contact-youtube.svg");
 }
 .social-icons-list__anchor::before {
   display: inline-block;
