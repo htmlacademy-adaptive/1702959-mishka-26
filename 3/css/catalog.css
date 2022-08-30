@@ -2,14 +2,14 @@
   font-family: "OpenSans";
   font-weight: 400;
   font-style: normal;
-  src: url("/fonts/opensans.woff2") format("woff2"), url("/fonts/opensans.woff") format("woff");
+  src: url("../fonts/opensans.woff2") format("woff2"), url("/fonts/opensans.woff") format("woff");
   font-display: swap;
 }
 @font-face {
   font-family: "OpenSans";
   font-weight: 700;
   font-style: normal;
-  src: url("/fonts/opensansbold.woff2") format("woff2"), url("/fonts/opensansbold.woff") format("woff");
+  src: url("../fonts/opensansbold.woff2") format("woff2"), url("/fonts/opensansbold.woff") format("woff");
   font-display: swap;
 }
 html,
@@ -186,7 +186,7 @@ body {
   font-weight: 400;
   font-size: 13px;
   line-height: 30px;
-  color: #000;
+  color: #444;
 }
 .product-preview__price {
   font-family: "OpenSans", sans-serif;
@@ -240,7 +240,7 @@ body {
   font-weight: 400;
   font-size: 13px;
   line-height: 30px;
-  color: #000;
+  color: #444;
   margin: 0;
 }
 .outline-btn {
@@ -252,6 +252,7 @@ body {
   font-size: 18px;
   line-height: 20px;
   color: #444;
+  text-transform: uppercase;
 }
 a.outline-btn {
   text-decoration: none;
@@ -261,6 +262,7 @@ a.outline-btn {
   padding: 15px;
   margin: 0;
   border: none;
+  text-transform: uppercase;
   font-family: "OpenSans", sans-serif;
   font-weight: 700;
   font-size: 17px;
@@ -283,6 +285,8 @@ a.outline-btn {
   grid-row: 1/2;
   grid-row: 2/3;
   justify-self: center;
+  font-size: 19px;
+  line-height: 18px;
 }
 .social-icons-list {
   display: flex;
@@ -302,6 +306,21 @@ a.outline-btn {
 }
 .social-icons-list__anchor::before {
   display: inline-block;
+}
+.form__input-notice {
+  color: #444;
+}
+.form__input--selectboxes {
+  display: grid;
+  flex-direction: column;
+}
+.form__title {
+  font-family: "OpenSans", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #000;
+  text-transform: uppercase;
 }
 .order-dialog {
   display: grid;
@@ -324,20 +343,6 @@ a.outline-btn {
   justify-self: center;
   align-self: center;
 }
-.form__title {
-  font-family: "OpenSans", sans-serif;
-  font-weight: 700;
-  font-size: 25px;
-  line-height: 30px;
-  color: #000;
-}
-.form__input-notice {
-  color: #444;
-}
-.form__input--selectboxes {
-  display: grid;
-  flex-direction: column;
-}
 .boxes-select {
   display: flex;
   margin: 0;
@@ -353,6 +358,8 @@ a.outline-btn {
 .box-option__input-label {
   display: inline-block;
   border: 2px solid rgba(68, 68, 68, 0.1);
+  text-transform: uppercase;
+  color: #444;
 }
 .box-option__input-source:checked + .box-option__input-label {
   border: 2px solid hsl(168, 54%, 60%);
